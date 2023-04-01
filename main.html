@@ -8,15 +8,15 @@
 
 <body>
 	 
-	<form method="post">
+	<form action="submit-feedback.js" method="post">
 	  <h1>Feedback Form</h1>
-	  <label for="name">Name*</label>
+	  <label for="name">Name:</label>
 	  <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
 	  <br><br>
-	  <label for="portfolio">Portfolio*</label>
+	  <label for="portfolio">Portfolio:</label>
 	  <input type="url" id="portfolio" name="portfolio" required>
 	  <br><br>
-	  <label for="favColor">Select your favrate Color </label>
+	  <label for="favColor">Select your favrate Color: </label>
 <!-- 	  <select id="favColor" name="favColor">
 			<option value="red">Red</option>
 			<option value="blue">Blue</option>
@@ -29,9 +29,9 @@
 		
 		<br><br>
 		<label for="likeness">Rate here</label>
-		<input type="range" id="likeness" name="likeness"  min="0" max="100">
+		<input type="range" id="likeness" name="likeness"  min="1" max="100">
 		<br><br>
-	   <button type="submit">Submit</button>
+	   <button type="submit" value="submit">Submit</button>
 </form>
 
 
