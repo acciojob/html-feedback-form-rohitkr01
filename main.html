@@ -7,8 +7,35 @@
 </head>
 
 <body>
+	<form>
+
+	  <h1>Feedback Form</h1>
+		
+	  <label for="name">Name*</label>
+	  <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+	
+	  <label for="portfolio">Portfolio*</label>
+	  <input type="url" id="portfolio" name="portfolio" required>
+
+		<label for="favColor">Select your favrate Color </label>
+		<select id="favColor" name="favColor">
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="pink">Pink</option>
+			<option value="green">Green</option>
+			<option value="black">Black</option>
+		</select>
+
+		<br>
+		<label for="likeness">Rate here</label>
+		<input type="range" id="likeness" name="likeness"  min="0" max="100">
+		<br><br>
+	  <button type="submit">Submit</button>
+</form>
+
+
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
